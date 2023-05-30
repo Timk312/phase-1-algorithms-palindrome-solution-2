@@ -1,5 +1,11 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+let x = word.split('').reverse().join('')
+if(x===word){
+  return true
+}
+else{
+  return false
+}
 }
 
 /* 
